@@ -14,7 +14,8 @@ class News extends ActiveRecord
     {
         return [
             ['title', 'required'],
-            ['content', 'string']
+            ['content', 'string'],
+            ['email', 'email']
         ];
     }
 
@@ -23,7 +24,8 @@ class News extends ActiveRecord
         return [
             'id' => 'ลำดับ',
             'title' => 'ชื่อเรื่อง',
-            'content' => 'เนื้อหา'
+            'content' => 'เนื้อหา',
+            'email' => 'อีเมล์'
         ];
     }
 }

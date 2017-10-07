@@ -17,3 +17,9 @@
     background-color: orange !important;
     border-color: orange;
 }
+
+.tableView tr td:nth-last-child(-n+3){
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
