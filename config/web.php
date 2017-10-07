@@ -8,6 +8,31 @@ $config = [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'components' => [
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'rules' => [
+//                'home' => 'site/index',
+//                'about' => 'site/about',
+//                'contact' => 'site/contact',
+//                'login' => 'site/login',
+//                'profile' => 'site/profile'
+            ],
+            // ...
+        ],
+//        'assetManager' => [
+//            'bundles' => [
+//                'yii\web\JqueryAsset' => [
+//                    'js' => []
+//                ],
+//                'yii\bootstrap\BootstrapPluginAsset' => [
+//                    'js' => []
+//                ],
+//                'yii\bootstrap\BootstrapAsset' => [
+//                    'css' => []
+//                ]
+//            ],
+//        ],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'Lm5VauXghJmUf-SAMSy7Wki8oGBYH26J',

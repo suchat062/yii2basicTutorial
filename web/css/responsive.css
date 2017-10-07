@@ -1,0 +1,7 @@
+.tableView tr th, td:first-child{
+    text-align: center;
+}
+
+.tableView td:first-child{
+    width: 80px;
+}
