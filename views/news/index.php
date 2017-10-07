@@ -13,7 +13,7 @@ $this->title = 'การสร้างบทความ';
     'tableOptions' => [
         'class' => 'table table-bordered tableView'
     ],
-    'layout' => "{items}\n{pager}",
+    'layout' => "{items}\n<div class='paginationClass'>{pager}</div>",
     'columns' => [
         'id',
         'title',

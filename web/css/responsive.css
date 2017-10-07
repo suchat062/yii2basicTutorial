@@ -1,7 +1,19 @@
+*{
+    outline: none;
+}
 .tableView tr th, td:first-child{
     text-align: center;
 }
 
 .tableView td:first-child{
     width: 80px;
+}
+
+.paginationClass{
+    text-align: center;
+}
+
+.paginationClass .active a, .paginationClass .active a:hover, .paginationClass .active a:focus{
+    background-color: orange !important;
+    border-color: orange;
 }

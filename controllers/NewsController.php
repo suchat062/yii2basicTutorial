@@ -16,7 +16,7 @@ class NewsController extends Controller
             'query' => $query,
             'sort' => ['defaultOrder' => ['id' => SORT_ASC]],
             'pagination' => [
-                'pageSize' => 2
+                'pageSize' => 5
             ],
         ]);
         return $this->render('index', [
