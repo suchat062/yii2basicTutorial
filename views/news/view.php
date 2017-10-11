@@ -8,7 +8,7 @@ $this->title = $model->title;
 <h1><?php echo $model->title;?></h1>
 <?php
     if(Yii::$app->session->hasFlash('success')){
-        echo Yii::$app->session->getFlash('success');
+        echo "<div class='alert alert-success'>". Yii::$app->session->getFlash('success')."</div>";
     }
 ?>
 <?php echo DetailView::widget([
