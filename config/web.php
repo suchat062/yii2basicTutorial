@@ -7,6 +7,11 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+    'modules' => [
+        'setting' => [
+            'class' => 'app\module\setting\Setting',
+        ],
+    ],
     'components' => [
         'urlManager' => [
             'enablePrettyUrl' => true,
@@ -72,6 +77,9 @@ $config = [
             ],
         ],
         */
+        'fistComponent' => [
+            'class' => 'app\components\fistComponent'
+        ]
     ],
     'params' => $params,
 ];
